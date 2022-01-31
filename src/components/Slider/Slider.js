@@ -19,7 +19,7 @@ export const Slider = ({ children }) => {
     };
 
 
-    const handleTouchEnd = (e) => {
+    const handleTouchEnd = () => {
         if ((Math.abs(touchStart - touchEnd) > PAGE_WIDTH * 0, 3)) {
             if (touchStart < touchEnd) {
                 console.log("left");

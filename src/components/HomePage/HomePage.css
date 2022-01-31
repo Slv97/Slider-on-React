@@ -1,0 +1,250 @@
+.homePage,
+.goHome,
+.logo,
+.arrowRight,
+.Layer7,
+.Layer5,
+.Layer4two,
+.pinkSperm1,
+.Layer8,
+.Layer5two,
+.Layer4,
+.pinkSperm2,
+.Layer5three {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.homePage {
+    background-image: url(./../../assets/images/HomePage/bg.png);
+    background-color: #c9edfe;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.goHome {
+    background-image: url(./../../assets/images/HomePage/goHome.png);
+    margin: 25px 0 106px 66px;
+    width: 154px;
+    height: 26px;
+}
+
+.textMiddle {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 68px;
+    font-size: 26px;
+}
+
+.textLarge {
+    letter-spacing: 5px;
+    margin-left: 64px;
+    line-height: 1.1;
+    font-size: 110px;
+}
+
+.homeWrapper {
+    position: relative;
+
+    z-index: 2;
+}
+
+.homeBtnWrapper {
+    position: absolute;
+    right: 11%;
+    top: 74%;
+}
+
+.btn {
+    background-color: #ff6a9f;
+    border-radius: 40px;
+    font-size: 26px;
+    color: #000;
+    width: 288px;
+    height: 80px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.btnIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.arrowRight {
+    width: 17px;
+    height: 14px;
+    background-image: url(./../../assets/images/HomePage/arrowRight.png);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.logo {
+    background-image: url(./../../assets/images/HomePage/onpoint-logo.png);
+    width: 56px;
+    height: 11px;
+    margin: 184px 0 0 70px;
+}
+
+.Layer7,
+.Layer5,
+.Layer4two,
+.pinkSperm1,
+.Layer8,
+.Layer5two,
+.Layer4,
+.pinkSperm2,
+.Layer5three {
+    position: absolute;
+}
+
+.Layer7 {
+    background-image: url(./../../assets/images/HomePage/Layer7.png);
+    width: 124px;
+    height: 112px;
+    top: 72px;
+}
+
+.Layer5 {
+    background-image: url(./../../assets/images/HomePage/Layer5.png);
+    width: 60px;
+    height: 66px;
+    top: 48px;
+    right: 234px;
+    background-size: contain;
+}
+
+.Layer5 {
+    animation: Layer5 4s linear infinite;
+}
+
+@keyframes Layer5 {
+    0% {
+        transform: scale(1.1) translate3d(20px, 5px, 0);
+    }
+    50% {
+        transform: scale(1) translate3d(38px, 10px, 0);
+    }
+    100% {
+        transform: scale(1.1) translate3d(20px, 5px, 0);
+    }
+}
+
+.Layer4two {
+    background-image: url(./../../assets/images/HomePage/Layer4two.png);
+    width: 58px;
+    height: 58px;
+    top: 32px;
+    right: 46px;
+}
+
+.pinkSperm1 {
+    background-image: url(./../../assets/images/HomePage/pinkSperm1.png);
+    width: 592px;
+    height: 92px;
+    top: 144px;
+    right: 0px;
+    z-index: 3;
+}
+
+.pinkSperm2 {
+    background-image: url(./../../assets/images/HomePage/pinkSperm1.png);
+    width: 414px;
+    height: 200px;
+    bottom: -13px;
+    left: -129px;
+    transform: rotate(158deg) scale(1, -1);
+    background-size: contain;
+    filter: blur(5px);
+    opacity: 0.9;
+}
+
+.Layer8 {
+    background-image: url(./../../assets/images/HomePage/Layer8.png);
+    width: 114px;
+    height: 114px;
+    top: 200px;
+    right: 56px;
+    z-index: 4;
+}
+
+.Layer8 {
+    animation: Layer8 8s linear alternate-reverse infinite;
+}
+
+@keyframes Layer8 {
+    0% {
+        transform: rotate(0deg) translate3d(-50px, -120px, 0) rotate(90deg);
+    }
+}
+
+.Layer5two {
+    background-image: url(./../../assets/images/HomePage/Layer5.png);
+    width: 72px;
+    height: 66px;
+    bottom: 198px;
+    left: 22px;
+    z-index: 1;
+}
+
+.Layer5two {
+    animation: Layer5two 6s linear alternate infinite;
+}
+
+@keyframes Layer5two {
+    0% {
+        transform: rotate(180deg) scale(1.1) translate3d(0px, 0px, 0);
+    }
+    50% {
+        transform: rotate(180deg) scale(1) translate3d(-20px, -40px, 0);
+    }
+    100% {
+        transform: rotate(180deg) scale(1.1) translate3d(0px, 0px, 0);
+    }
+}
+
+.Layer5three {
+    background-image: url(./../../assets/images/HomePage/Layer5.png);
+    width: 72px;
+    height: 44px;
+    bottom: 78px;
+    left: 350px;
+    background-size: contain;
+    filter: contrast(2) blur(10px) saturate(0.8) brightness(1);
+    opacity: 0.8;
+}
+
+.Layer4 {
+    background-image: url(./../../assets/images/HomePage/Layer4.png);
+    width: 238px;
+    height: 132px;
+    bottom: 0px;
+    right: 258px;
+}
+
+.Layer4 {
+    animation: Layer4 6s linear alternate infinite;
+}
+
+@keyframes Layer4 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

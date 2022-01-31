@@ -1,18 +1,21 @@
 import React from "react";
 import "./HomePage.css";
+import { GoHome } from "../common/GoHome/GoHome";
+import { TextMiddle } from "../common/TextMiddle/TextMiddle";
 
 export const HomePage = (props) => {
     return (
         <div className="homePage">
-            <div className="goHome"></div>
-            <div className="textMiddle">Привет,</div>
+            <div className="textWrapper">
+                <GoHome />
+            </div>
+            <TextMiddle text="Привет," />
             <div className="homeWrapper">
                 <div className="textLarge">
                     ЭТО <b>НЕ</b> КОММЕРЧЕСКОЕ ЗАДАНИЕ
                 </div>
                 <div className="homeBtnWrapper">
                     <button className="btn">
-                        {/* <div className="btnIcon">&#10140;</div> */}
                         <div className="btnIcon">
                             <div className="arrowRight"></div>
                         </div>

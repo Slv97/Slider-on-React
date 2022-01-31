@@ -1,0 +1,9 @@
+.textMiddle {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 68px;
+    font-size: 26px;
+    word-wrap: break-word;
+    width: 200px;
+    color: #353736;
+}

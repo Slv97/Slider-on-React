@@ -1,0 +1,210 @@
+.informationPage,
+.logo,
+.Layer3,
+.Layer3Mid,
+.Layer3MidTwo,
+.Layer3Sm,
+.Layer3SmTwo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.informationPage {
+    background-image: url(./../../assets/images/InformationPage/bgIP.png);
+    background-color: #fdb7d1;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.textWrapper {
+    margin-bottom: 78px;
+}
+
+.textArticle {
+    transform: scaleX(-1);
+    width: 820px;
+    height: 444px;
+    overflow-y: scroll;
+    margin: 51px 132px 84px 73px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 2;
+    position: relative;
+}
+
+.textTransform {
+    padding: 13px 50px 35px 29px;
+    transform: scaleX(-1);
+    border-radius: 40px;
+    text-align: justify;
+    color: #333333;
+    font-size: 22px;
+}
+
+.emptyBlock {
+    border: 15px solid red;
+    opacity: 0;
+}
+
+.textArticle::-webkit-scrollbar {
+    width: 18px;
+}
+
+.textArticle::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+    border: 6px solid transparent;
+    background-clip: content-box;
+    border-radius: 20px;
+}
+
+.textArticle::-webkit-scrollbar-thumb {
+    background-image: url(./../../assets/images/InformationPage/scroll.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.textBox {
+    width: 774px;
+    height: 466px;
+    background: #fff;
+    border-radius: 40px;
+    position: absolute;
+    top: 240px;
+    left: 118px;
+    z-index: 1;
+}
+
+.logo,
+.Layer3,
+.Layer3Mid,
+.Layer3MidTwo,
+.Layer3Sm,
+.Layer3SmTwo {
+    position: absolute;
+}
+
+.logo {
+    background-image: url(./../../assets/images/common/onpoint-logo.png);
+    width: 56px;
+    height: 11px;
+    bottom: 15px;
+    left: 70px;
+}
+
+.Layer3,
+.Layer3Mid,
+.Layer3MidTwo,
+.Layer3Sm,
+.Layer3SmTwo {
+    background-image: url(./../../assets/images/InformationPage/Layer3.png);
+    opacity: 0;
+    transition: 1s;
+}
+
+.Layer3 {
+    width: 1083px;
+    height: 851px;
+    top: -31px;
+    right: -30px;
+    animation: Layer3 2s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes Layer3 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(-30px, -30px, 0);
+    }
+}
+
+.Layer3Mid,
+.Layer3MidTwo {
+    width: 700px;
+    height: 600px;
+}
+
+.Layer3Mid {
+    top: 30px;
+    right: -50px;
+    animation: Layer3Mid 2s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes Layer3Mid {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.6;
+        transform: translate3d(-30px, -30px, 0);
+    }
+}
+
+.Layer3MidTwo {
+    top: 340px;
+    right: -346px;
+    animation: Layer3MidTwo 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes Layer3MidTwo {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.6;
+        transform: translate3d(-30px, -30px, 0);
+    }
+}
+
+.Layer3Sm,
+.Layer3SmTwo {
+    width: 400px;
+    height: 300px;
+}
+
+.Layer3Sm {
+    top: 50px;
+    right: 24px;
+    animation: Layer3Sm 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@keyframes Layer3Sm {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.4;
+        transform: translate3d(-30px, -30px, 0);
+    }
+}
+
+.Layer3SmTwo {
+    top: 520px;
+    right: -166px;
+    animation: Layer3SmTwo 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@keyframes Layer3SmTwo {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.4;
+        transform: translate3d(-30px, -30px, 0);
+    }
+}

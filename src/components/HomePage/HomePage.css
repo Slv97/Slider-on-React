@@ -22,20 +22,11 @@
     height: 100%;
     width: 100%;
     position: relative;
+    background-size: contain;
 }
 
-.goHome {
-    background-image: url(./../../assets/images/HomePage/goHome.png);
-    margin: 25px 0 106px 66px;
-    width: 154px;
-    height: 26px;
-}
-
-.textMiddle {
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-left: 68px;
-    font-size: 26px;
+.textWrapper {
+    margin-bottom: 106px;
 }
 
 .textLarge {
@@ -91,7 +82,7 @@
 }
 
 .logo {
-    background-image: url(./../../assets/images/HomePage/onpoint-logo.png);
+    background-image: url(./../../assets/images/common/onpoint-logo.png);
     width: 56px;
     height: 11px;
     margin: 184px 0 0 70px;

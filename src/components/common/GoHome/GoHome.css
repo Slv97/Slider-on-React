@@ -1,0 +1,9 @@
+.goHome {
+    background-image: url(../../../assets/images/common/GoHome/goHome.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 24px 0 0px 66px;
+    width: 154px;
+    height: 26px;
+}

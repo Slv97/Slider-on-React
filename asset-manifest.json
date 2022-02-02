@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Slider-on-React/static/css/main.c9e25236.css",
+    "main.js": "/Slider-on-React/static/js/main.087bb948.js",
+    "static/js/787.0c3f432a.chunk.js": "/Slider-on-React/static/js/787.0c3f432a.chunk.js",
+    "static/media/bgIP.png": "/Slider-on-React/static/media/bgIP.1d265a95ba2f6163a0a1.png",
+    "static/media/bgPP.png": "/Slider-on-React/static/media/bgPP.c0329fd89e75dd934ac8.png",
+    "static/media/bg.png": "/Slider-on-React/static/media/bg.eeb7c139b0c2a4b9f132.png",
+    "static/media/bottle.png": "/Slider-on-React/static/media/bottle.4dd426dea6203c630739.png",
+    "static/media/Layer3.png": "/Slider-on-React/static/media/Layer3.f5d89f3bca3ea2460e92.png",
+    "static/media/Layer4.png": "/Slider-on-React/static/media/Layer4.57642f7c3f186c9808d8.png",
+    "static/media/pinkSperm1.png": "/Slider-on-React/static/media/pinkSperm1.04522d9a7df5d861cd05.png",
+    "static/media/Layer8.png": "/Slider-on-React/static/media/Layer8.ac0457e3de99a2855986.png",
+    "static/media/Layer7.png": "/Slider-on-React/static/media/Layer7.2ed16a0d2eb6c687c88c.png",
+    "static/media/plus.png": "/Slider-on-React/static/media/plus.d93902b5bd5fcb073329.png",
+    "static/media/Layer5.png": "/Slider-on-React/static/media/Layer5.a0a843cd6bfa03c91906.png",
+    "static/media/bubblePink.png": "/Slider-on-React/static/media/bubblePink.46d9fdb23915c74cc27b.png",
+    "static/media/bubbleBlue.png": "/Slider-on-React/static/media/bubbleBlue.97727331be935609a38c.png",
+    "static/media/Layer4two.png": "/Slider-on-React/static/media/Layer4two.73f170e58a2e1a03724d.png",
+    "index.html": "/Slider-on-React/index.html",
+    "main.c9e25236.css.map": "/Slider-on-React/static/css/main.c9e25236.css.map",
+    "main.087bb948.js.map": "/Slider-on-React/static/js/main.087bb948.js.map",
+    "787.0c3f432a.chunk.js.map": "/Slider-on-React/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9e25236.css",
+    "static/js/main.087bb948.js"
+  ]
+}

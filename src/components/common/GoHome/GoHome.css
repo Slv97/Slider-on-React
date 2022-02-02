@@ -6,4 +6,7 @@
     margin: 24px 0 0px 66px;
     width: 154px;
     height: 26px;
+    cursor: pointer;
+    z-index: 20;
+    position: relative;
 }

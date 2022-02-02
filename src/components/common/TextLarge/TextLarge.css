@@ -1,0 +1,7 @@
+.textLarge {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: 64px;
+    line-height: 1.1;
+    font-size: 110px;
+}

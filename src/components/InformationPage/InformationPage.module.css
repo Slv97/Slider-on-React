@@ -16,10 +16,16 @@
     height: 100%;
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .textWrapper {
     margin-bottom: 78px;
+}
+
+.textMiddleWrapper {
+    word-wrap: break-word;
+    width: 260px;
 }
 
 .textArticle {

@@ -1,0 +1,58 @@
+/* .homeBtnWrapper {
+    position: absolute;
+    right: 11%;
+    top: 74%;
+} */
+
+.btn {
+    background-color: #ff6a9f;
+    border-radius: 40px;
+    font-size: 26px;
+    color: #000;
+    padding: 0 15px 0 20px;
+    height: 80px;
+    border: none;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+}
+
+.btnIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    box-shadow: 3px 1px 2px #ffa9c7, -4px -2px 3px #b2527c;
+    color: #fff;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-right: 19px;
+}
+
+.arrowRight,
+.plus {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.arrowRight {
+    
+    width: 17px;
+    height: 14px;
+    background-image: url("../../../assets/images/common/Button/arrowRight.png");
+    background-position: center;
+    margin: 0 auto;
+}
+
+.plus {
+    width: 16px;
+    height: 16px;
+    background-image: url("../../../assets/images/common/Button/plus.png");
+    background-position: center;
+    margin: 0 auto;
+}

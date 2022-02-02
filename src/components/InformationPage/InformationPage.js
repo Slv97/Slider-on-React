@@ -8,7 +8,9 @@ export const InformationPage = () => {
             <div className={s.textWrapper}>
                 <GoHome />
             </div>
-            <TextMiddle text="Текст сообщения" />
+            <div className={s.textMiddleWrapper}>
+                <TextMiddle text="Текст сообщения" />
+            </div>
             <div className={s.textArticle}>
                 <div className={s.emptyBlock}></div>
                 <div className={s.textTransform}>

@@ -18,22 +18,28 @@ export const Slider = ({ children }) => {
         setTouchEnd(e.targetTouches[0].clientX);
     };
 
-
     const handleTouchEnd = () => {
-        if ((Math.abs(touchStart - touchEnd) > PAGE_WIDTH * 0, 3)) {
-            if (touchStart < touchEnd) {
-                console.log("left");
-                setOffset((currentOffset) => {
-                    const newOffset = currentOffset + PAGE_WIDTH;
-                    return Math.min(newOffset, 0);
-                });
-            } else if (touchStart > touchEnd) {
-                console.log("right");
-                setOffset((currentOffset) => {
-                    const newOffset = currentOffset - PAGE_WIDTH;
-                    const maxOffset = -(PAGE_WIDTH * (pages.length - 1));
-                    return Math.max(newOffset, maxOffset);
-                });
+        let a = touchStart - touchEnd
+        let b = PAGE_WIDTH * 0.3
+        console.log('touchStart - touchEnd', a)
+        console.log('touchStart', touchStart)
+        console.log('touchEnd', touchEnd)
+        if (touchStart !== touchEnd) {
+            if ((Math.abs(a) > b)) {
+                if (touchStart < touchEnd) {
+                    console.log("left");
+                    setOffset((currentOffset) => {
+                        const newOffset = currentOffset + PAGE_WIDTH;
+                        return Math.min(newOffset, 0);
+                    });
+                } else if (touchStart > touchEnd) {
+                    console.log("right");
+                    setOffset((currentOffset) => {
+                        const newOffset = currentOffset - PAGE_WIDTH;
+                        const maxOffset = -(PAGE_WIDTH * (pages.length - 1));
+                        return Math.max(newOffset, maxOffset);
+                    });
+                }
             }
         }
     };

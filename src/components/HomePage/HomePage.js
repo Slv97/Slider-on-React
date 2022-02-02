@@ -2,8 +2,11 @@ import React from "react";
 import "./HomePage.css";
 import { GoHome } from "../common/GoHome/GoHome";
 import { TextMiddle } from "../common/TextMiddle/TextMiddle";
+import { TextLarge } from "../common/TextLarge/TextLarge";
+import { Button } from "../common/Button/Button";
+import { useState } from "react";
 
-export const HomePage = (props) => {
+export const HomePage = () => {
     return (
         <div className="homePage">
             <div className="textWrapper">
@@ -11,16 +14,15 @@ export const HomePage = (props) => {
             </div>
             <TextMiddle text="Привет," />
             <div className="homeWrapper">
-                <div className="textLarge">
-                    ЭТО <b>НЕ</b> КОММЕРЧЕСКОЕ ЗАДАНИЕ
-                </div>
+                <TextLarge
+                    text={
+                        <p>
+                            ЭТО <b>НЕ </b> КОММЕРЧЕСКОЕ ЗАДАНИЕ
+                        </p>
+                    }
+                />
                 <div className="homeBtnWrapper">
-                    <button className="btn">
-                        <div className="btnIcon">
-                            <div className="arrowRight"></div>
-                        </div>
-                        <div>Что дальше?</div>
-                    </button>
+                    <Button text="Что дальше?" icon="arrowRight" />
                 </div>
             </div>
             <div className="logo"></div>

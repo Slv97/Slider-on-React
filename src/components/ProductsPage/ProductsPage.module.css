@@ -1,0 +1,362 @@
+.productsPage,
+.iconCalendar,
+.iconPlate,
+.logo,
+.bottle,
+.bubblePinkSm,
+.bubblePinkMid,
+.bubblePinkL,
+.bubbleBlueSm,
+.bubbleBlueMid,
+.bubbleBlueL,
+.bubbleBlueMidTwo,
+.bubbleBlueSmTwo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.productsPage {
+    background-image: url(./../../assets/images/ProductsPage/bgPP.png);
+    background-color: #dddddd;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.textMiddleWrapper {
+    margin-left: 282px;
+}
+
+.textLargeWrapper {
+    margin-left: 270px;
+    font-size: 100px;
+    margin-bottom: 66px;
+}
+
+.productWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 674px;
+    margin-left: 270px;
+}
+
+.productComposition,
+.productCalendar {
+    border-radius: 40px;
+    background-color: #fff;
+    color: #565656;
+}
+
+.productComposition {
+    width: 368px;
+    height: 270px;
+    /* background-color: red; */
+    position: relative;
+}
+
+.iconPlate {
+    background-image: url("../../assets/images/ProductsPage/plate.png");
+    position: absolute;
+    top: -34px;
+    left: 80px;
+    width: 68px;
+    height: 65px;
+}
+
+.iconCalendar {
+    background-image: url("../../assets/images/ProductsPage/calendar.png");
+    position: absolute;
+    top: -31px;
+    left: 41px;
+    width: 69px;
+    height: 70px;
+}
+
+.productCalendarWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 270px;
+}
+
+.productCalendar {
+    position: relative;
+    width: 264px;
+    height: 152px;
+    /* background-color: blue; */
+}
+
+.productText {
+    font-size: 24px;
+    padding: 46px 46px 46px 76px;
+    line-height: 1.25;
+}
+
+.productTextSmall {
+    font-size: 24px;
+    padding: 46px;
+    line-height: 1.25;
+}
+
+.logo {
+    background-image: url(./../../assets/images/common/onpoint-logo.png);
+    width: 56px;
+    height: 12px;
+    bottom: 15px;
+    left: 70px;
+    position: absolute;
+}
+
+.bottle {
+    background-image: url(./../../assets/images/ProductsPage/bottle.png);
+    position: absolute;
+    width: 1020px;
+    height: 886px;
+    bottom: -59px;
+    left: 2px;
+    z-index: 4;
+    pointer-events: none;
+}
+
+.bubblePinkSm,
+.bubblePinkMid,
+.bubblePinkL {
+    background-image: url(./../../assets/images/ProductsPage/bubblePink.png);
+    position: absolute;
+}
+
+.bubblePinkSm {
+    top: 210px;
+    left: 78px;
+    width: 36px;
+    height: 36px;
+    z-index: 1;
+}
+
+.bubblePinkSm {
+    animation: bubblePinkSm 5s linear infinite;
+}
+
+@keyframes bubblePinkSm {
+    0% {
+        transform: scale(1.1) translate3d(0px, 5px, 0);
+    }
+    50% {
+        transform: scale(1) translate3d(30px, 14px, 0);
+    }
+    100% {
+        transform: scale(1.1) translate3d(0px, 5px, 0);
+    }
+}
+
+.bubblePinkMid {
+    width: 100px;
+    height: 100px;
+    top: 316px;
+    left: 200px;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+
+.bubblePinkMid {
+    animation: bubblePinkMid 6s linear infinite;
+}
+
+@keyframes bubblePinkMid {
+    0% {
+        transform: scale(1) translate3d(0px, 5px, 0);
+    }
+    50% {
+        transform: scale(1.2) translate3d(30px, -14px, 0);
+    }
+    75% {
+        transform: scale(1.2) translate3d(30px, 10px, 0);
+    }
+    100% {
+        transform: scale(1) translate3d(0px, 5px, 0);
+    }
+}
+
+.bubblePinkL {
+    width: 74px;
+    height: 74px;
+    bottom: 140px;
+    left: 26px;
+    z-index: 4;
+}
+
+.bubblePinkL {
+    animation: bubblePinkL 5s linear infinite;
+}
+
+@keyframes bubblePinkL {
+    0% {
+        transform: scale(1) translate3d(-5px, 5px, 0);
+    }
+    50% {
+        transform: scale(1.2) translate3d(30px, 14px, 0);
+    }
+    100% {
+        transform: scale(1) translate3d(-5px, 5px, 0);
+    }
+}
+
+.bubbleBlueSm,
+.bubbleBlueMid,
+.bubbleBlueL,
+.bubbleBlueMidTwo,
+.bubbleBlueSmTwo {
+    background-image: url(./../../assets/images/ProductsPage/bubbleBlue.png);
+    position: absolute;
+}
+
+.bubbleBlueSm,
+.bubbleBlueSmTwo {
+    width: 38px;
+    height: 38px;    
+}
+
+.bubbleBlueSm {
+    top: 66px;
+    left: 198px;
+    z-index: 1;
+}
+
+.bubbleBlueSm {
+    animation: bubbleBlueSm 3s linear infinite;
+}
+
+@keyframes bubbleBlueSm {
+    0% {
+        transform: scale(1.1) translate3d(0px, 5px, 0);
+    }
+    50% {
+        transform: scale(1) translate3d(30px, 40px, 0);
+    }
+    100% {
+        transform: scale(1.1) translate3d(0px, 5px, 0);
+    }
+}
+
+.bubbleBlueSmTwo {
+    top: 450px;
+    left: 12px;
+    z-index: 5;
+}
+
+.bubbleBlueSmTwo {
+    animation: bubbleBlueSmTwo 5s linear infinite;
+}
+
+@keyframes bubbleBlueSmTwo {
+    0% {
+        transform: scale(1.1) translate3d(0px, 5px, 0);
+    }
+    50% {
+        transform: scale(1) translate3d(30px, 14px, 0);
+    }
+    100% {
+        transform: scale(1.1) translate3d(0px, 5px, 0);
+    }
+}
+
+.bubbleBlueMid,
+.bubbleBlueMidTwo {
+    width: 68px;
+    height: 68px;
+}
+
+.bubbleBlueMid {
+    top: 158px;
+    left: 184px;
+    z-index: 4;
+}
+
+.bubbleBlueMid {
+    animation: bubbleBlueMid 4s linear infinite;
+}
+
+@keyframes bubbleBlueMid {
+    0% {
+        transform: scale(1.1) translate3d(0px, 5px, 0);
+    }
+    50% {
+        transform: scale(1) translate3d(30px, 40px, 0);
+    }
+    100% {
+        transform: scale(1.1) translate3d(0px, 5px, 0);
+    }
+}
+
+.bubbleBlueMidTwo {
+    bottom: 116px;
+    left: 235px;
+    z-index: 2;
+    transform: rotate(20deg);
+}
+
+.bubbleBlueMidTwo {
+    animation: bubbleBlueMidTwo 6s linear infinite;
+}
+
+@keyframes bubbleBlueMidTwo {
+    0% {
+        transform: scale(1.1) translate3d(0px, 0px, 0);
+    }
+    50% {
+        transform: scale(1) translate3d(10px, 20px, 0);
+    }
+    100% {
+        transform: scale(1.1) translate3d(0px, 0px, 0);
+    }
+}
+
+.bubbleBlueL {
+    width: 140px;
+    height: 140px;
+    bottom: -70px;
+    left: 184px;
+    z-index: 4;
+    transform: rotate(317deg);
+}
+
+.bubbleBlueL {
+    animation: bubbleBlueL 5s alternate-reverse infinite;
+}
+
+@keyframes bubbleBlueL {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.smallSlider {
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+/* .list {
+    margin-left: 68px;
+}
+
+.item {
+    font-size: 26px;
+    font-weight: bold;
+    color: #5ec6e1;
+    padding: 12px 0 4px;
+}
+
+.itemText {
+    font-size: 24px;
+} */

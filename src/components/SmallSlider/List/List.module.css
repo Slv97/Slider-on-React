@@ -1,0 +1,40 @@
+.list {
+    margin-left: 68px;
+    position: relative;
+}
+
+.item {
+    font-size: 26px;
+    font-weight: bold;
+    color: #5ec6e1;
+    padding: 12px 0 4px;
+}
+
+.itemText {
+    font-size: 24px;
+    color: #050505;
+}
+
+/* .point,
+.pointActive {position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: 8px;
+    margin-top: 4px;
+    bottom: 0px;
+}
+
+.point {
+    border: 1px solid #000;
+    background-color: #fff;
+    left: 40px;
+
+}
+
+.pointActive {
+    background-color: #ff73b1;
+    border: none;
+    left: 20px;
+} */

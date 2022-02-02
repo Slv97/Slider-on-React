@@ -45,7 +45,7 @@ export const ProductsPage = () => {
                             Lorem, ipsum dolor.
                         </p>
                     </div>
-                    {/* <div className={s.test} onClick={() => setModalActive(true)}>+</div> */}
+
                     <Button
                         text="Подробнее"
                         icon="plus"
@@ -73,16 +73,6 @@ export const ProductsPage = () => {
                         <ListTwo />
                     </div>
                 </SmallSlider>
-
-                {/* <div className={s.list}>
-                    <div className={s.item}>01</div>
-                    <div className={s.itemText}>Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit</div>
-                    <div className={s.item}>02</div>
-                    <div className={s.itemText}>Lorem, ipsum dolor sit amet consectetur</div>
-                    <div className={s.item}>03</div>
-                    <div className={s.itemText}>Lorem, ipsum dolor sit amet consectetur</div>
-                </div> */}
             </Modal>
 
             <div className={s.bottle}></div>

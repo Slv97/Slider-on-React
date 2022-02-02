@@ -4,7 +4,6 @@ import { GoHome } from "../common/GoHome/GoHome";
 import { TextMiddle } from "../common/TextMiddle/TextMiddle";
 import { TextLarge } from "../common/TextLarge/TextLarge";
 import { Button } from "../common/Button/Button";
-import { useState } from "react";
 
 export const HomePage = () => {
     return (

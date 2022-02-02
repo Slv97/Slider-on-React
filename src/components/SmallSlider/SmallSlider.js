@@ -10,7 +10,7 @@ export const SmallSlider = ({ children }) => {
     const [hasClass, setHasClass] = useState(true);
 
     const handleLeftAroowClick = () => {
-        setHasClass(true) ? setHasClass(false) : setHasClass(true)
+        setHasClass(true) ? setHasClass(false) : setHasClass(true);
         setOffset((currentOffset) => {
             const newOffset = currentOffset + PAGE_WIDTH;
             return Math.min(newOffset, 0);
@@ -18,7 +18,7 @@ export const SmallSlider = ({ children }) => {
     };
 
     const handleRightAroowClick = () => {
-        setHasClass(false) ? setHasClass(true) : setHasClass(false)
+        setHasClass(false) ? setHasClass(true) : setHasClass(false);
         setOffset((currentOffset) => {
             const newOffset = currentOffset - PAGE_WIDTH;
             const maxOffset = -(PAGE_WIDTH * (pages.length - 1));
@@ -59,8 +59,6 @@ export const SmallSlider = ({ children }) => {
                     &#8249;
                 </button>
 
-                {/* <button className={s.pointActive}></button> */}
-                
                 <button className={hasClass ? s.pointActive : s.point}></button>
                 <button className={hasClass ? s.point : s.pointActive}></button>
 

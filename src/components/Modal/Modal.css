@@ -28,12 +28,10 @@
     transform: scale(0.5);
     transition: 0.4s all;
     margin-top: 52px;
-    /* pointer-events: none; */
 }
 
 .modalContent.active {
     transform: scale(1);
-    /* pointer-events: all; */
 }
 
 .btnClose {
